@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4731A08625401F3C0041A3F4 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4731A08525401F3C0041A3F4 /* ProfilePageViewController.swift */; };
+		4731A08825404AA00041A3F4 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4731A08725404AA00041A3F4 /* UpdateProfileViewController.swift */; };
+		4731A08C25410D4D0041A3F4 /* SuccessPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4731A08B25410D4C0041A3F4 /* SuccessPageViewController.swift */; };
+		473F5C272570927800E1FCAD /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F5C262570927800E1FCAD /* Formatter.swift */; };
+		473F5C2D2571005D00E1FCAD /* TImeLogsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F5C2C2571005D00E1FCAD /* TImeLogsHeaderCell.swift */; };
+		47537F35256CECCD001C0320 /* AddTimeLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47537F34256CECCD001C0320 /* AddTimeLogViewController.swift */; };
+		47537F37256CECE0001C0320 /* AddTimeLogSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47537F36256CECE0001C0320 /* AddTimeLogSuccessViewController.swift */; };
+		47537F39256D121D001C0320 /* AddTimeLogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47537F38256D121D001C0320 /* AddTimeLogResponse.swift */; };
+		477E1084253E7A1C00A8468C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E1083253E7A1C00A8468C /* AppDelegate.swift */; };
+		477E1086253E7A1C00A8468C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E1085253E7A1C00A8468C /* SceneDelegate.swift */; };
+		477E1088253E7A1C00A8468C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E1087253E7A1C00A8468C /* LoginViewController.swift */; };
+		477E108B253E7A1C00A8468C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477E1089253E7A1C00A8468C /* Main.storyboard */; };
+		477E108D253E7A1E00A8468C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477E108C253E7A1E00A8468C /* Assets.xcassets */; };
+		477E1090253E7A1E00A8468C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477E108E253E7A1E00A8468C /* LaunchScreen.storyboard */; };
+		478AF6D3255E296200820052 /* UpdateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478AF6D2255E296200820052 /* UpdateProfile.swift */; };
+		478E12072566535500AF5810 /* TimeLogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E12062566535500AF5810 /* TimeLogsViewController.swift */; };
+		478E120925666B9C00AF5810 /* TimeLogDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E120825666B9C00AF5810 /* TimeLogDetails.swift */; };
+		478E120B25666C0900AF5810 /* TimeLogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478E120A25666C0900AF5810 /* TimeLogResponse.swift */; };
+		4796470425693B2300863E76 /* TimeLogsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796470325693B2300863E76 /* TimeLogsCell.swift */; };
+		47964706256B640C00863E76 /* TimeLogDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47964705256B640C00863E76 /* TimeLogDetailsViewController.swift */; };
+		47964708256B79B500863E76 /* TimeLogLeavesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47964707256B79B500863E76 /* TimeLogLeavesViewController.swift */; };
+		479D80512562581B00F580BA /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D80502562581B00F580BA /* SpinnerViewController.swift */; };
+		47F15145255E51BD00CF4AFF /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F15144255E51BD00CF4AFF /* LoginResponse.swift */; };
+		47F15147255E521E00CF4AFF /* EmployeeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F15146255E521E00CF4AFF /* EmployeeDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4731A08525401F3C0041A3F4 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		4731A08725404AA00041A3F4 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		4731A08B25410D4C0041A3F4 /* SuccessPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPageViewController.swift; sourceTree = "<group>"; };
+		473F5C262570927800E1FCAD /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		473F5C2C2571005D00E1FCAD /* TImeLogsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImeLogsHeaderCell.swift; sourceTree = "<group>"; };
+		47537F34256CECCD001C0320 /* AddTimeLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimeLogViewController.swift; sourceTree = "<group>"; };
+		47537F36256CECE0001C0320 /* AddTimeLogSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimeLogSuccessViewController.swift; sourceTree = "<group>"; };
+		47537F38256D121D001C0320 /* AddTimeLogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTimeLogResponse.swift; sourceTree = "<group>"; };
+		477E1080253E7A1C00A8468C /* MobileExercise3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileExercise3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		477E1083253E7A1C00A8468C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		477E1085253E7A1C00A8468C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		477E1087253E7A1C00A8468C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		477E108A253E7A1C00A8468C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		477E108C253E7A1E00A8468C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		477E108F253E7A1E00A8468C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		477E1091253E7A1E00A8468C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478AF6D2255E296200820052 /* UpdateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfile.swift; sourceTree = "<group>"; };
+		478E12062566535500AF5810 /* TimeLogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogsViewController.swift; sourceTree = "<group>"; };
+		478E120825666B9C00AF5810 /* TimeLogDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogDetails.swift; sourceTree = "<group>"; };
+		478E120A25666C0900AF5810 /* TimeLogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogResponse.swift; sourceTree = "<group>"; };
+		4796470325693B2300863E76 /* TimeLogsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogsCell.swift; sourceTree = "<group>"; };
+		47964705256B640C00863E76 /* TimeLogDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogDetailsViewController.swift; sourceTree = "<group>"; };
+		47964707256B79B500863E76 /* TimeLogLeavesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogLeavesViewController.swift; sourceTree = "<group>"; };
+		479D80502562581B00F580BA /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		47F15144255E51BD00CF4AFF /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		47F15146255E521E00CF4AFF /* EmployeeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		477E107D253E7A1C00A8468C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		477E1077253E7A1C00A8468C = {
+			isa = PBXGroup;
+			children = (
+				477E1082253E7A1C00A8468C /* MobileExercise3 */,
+				477E1081253E7A1C00A8468C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		477E1081253E7A1C00A8468C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				477E1080253E7A1C00A8468C /* MobileExercise3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		477E1082253E7A1C00A8468C /* MobileExercise3 */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D4FD256F5023000364D1 /* Login */,
+				47C9D500256F5535000364D1 /* Profile */,
+				47C9D503256F5684000364D1 /* Time Logs */,
+				47C9D50F256F5900000364D1 /* Add Time Logs */,
+				477E1089253E7A1C00A8468C /* Main.storyboard */,
+				477E108C253E7A1E00A8468C /* Assets.xcassets */,
+				477E1083253E7A1C00A8468C /* AppDelegate.swift */,
+				477E1085253E7A1C00A8468C /* SceneDelegate.swift */,
+				477E108E253E7A1E00A8468C /* LaunchScreen.storyboard */,
+				477E1091253E7A1E00A8468C /* Info.plist */,
+			);
+			path = MobileExercise3;
+			sourceTree = "<group>";
+		};
+		47C9D4FD256F5023000364D1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D4FE256F548E000364D1 /* Model */,
+				47C9D501256F5556000364D1 /* View Controller */,
+				47C9D50E256F5862000364D1 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		47C9D4FE256F548E000364D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D4FF256F549E000364D1 /* Connection */,
+				47F15146255E521E00CF4AFF /* EmployeeDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47C9D4FF256F549E000364D1 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				47F15144255E51BD00CF4AFF /* LoginResponse.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		47C9D500256F5535000364D1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D502256F5655000364D1 /* Update Profile */,
+				47C9D508256F57AB000364D1 /* View Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		47C9D501256F5556000364D1 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				477E1087253E7A1C00A8468C /* LoginViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		47C9D502256F5655000364D1 /* Update Profile */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D50C256F57FE000364D1 /* Model */,
+				47C9D50B256F57F6000364D1 /* View Controller */,
+			);
+			path = "Update Profile";
+			sourceTree = "<group>";
+		};
+		47C9D503256F5684000364D1 /* Time Logs */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D504256F56A0000364D1 /* Model */,
+				47C9D506256F56C5000364D1 /* View Controller */,
+				47C9D507256F56EF000364D1 /* View */,
+			);
+			path = "Time Logs";
+			sourceTree = "<group>";
+		};
+		47C9D504256F56A0000364D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D505256F56A8000364D1 /* Connection */,
+				478E120825666B9C00AF5810 /* TimeLogDetails.swift */,
+				473F5C262570927800E1FCAD /* Formatter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47C9D505256F56A8000364D1 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				478E120A25666C0900AF5810 /* TimeLogResponse.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		47C9D506256F56C5000364D1 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				478E12062566535500AF5810 /* TimeLogsViewController.swift */,
+				47964705256B640C00863E76 /* TimeLogDetailsViewController.swift */,
+				47964707256B79B500863E76 /* TimeLogLeavesViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		47C9D507256F56EF000364D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				473F5C2C2571005D00E1FCAD /* TImeLogsHeaderCell.swift */,
+				4796470325693B2300863E76 /* TimeLogsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47C9D508256F57AB000364D1 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4731A08525401F3C0041A3F4 /* ProfilePageViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		47C9D50B256F57F6000364D1 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4731A08725404AA00041A3F4 /* UpdateProfileViewController.swift */,
+				4731A08B25410D4C0041A3F4 /* SuccessPageViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		47C9D50C256F57FE000364D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D50D256F5803000364D1 /* Connection */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47C9D50D256F5803000364D1 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				478AF6D2255E296200820052 /* UpdateProfile.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		47C9D50E256F5862000364D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				479D80502562581B00F580BA /* SpinnerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		47C9D50F256F5900000364D1 /* Add Time Logs */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D511256F5931000364D1 /* Model */,
+				47C9D510256F591A000364D1 /* View Controller */,
+			);
+			path = "Add Time Logs";
+			sourceTree = "<group>";
+		};
+		47C9D510256F591A000364D1 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				47537F34256CECCD001C0320 /* AddTimeLogViewController.swift */,
+				47537F36256CECE0001C0320 /* AddTimeLogSuccessViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		47C9D511256F5931000364D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				47C9D512256F593C000364D1 /* Connection */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		47C9D512256F593C000364D1 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				47537F38256D121D001C0320 /* AddTimeLogResponse.swift */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		477E107F253E7A1C00A8468C /* MobileExercise3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 477E1094253E7A1E00A8468C /* Build configuration list for PBXNativeTarget "MobileExercise3" */;
+			buildPhases = (
+				477E107C253E7A1C00A8468C /* Sources */,
+				477E107D253E7A1C00A8468C /* Frameworks */,
+				477E107E253E7A1C00A8468C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileExercise3;
+			productName = MobileExercise1;
+			productReference = 477E1080253E7A1C00A8468C /* MobileExercise3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		477E1078253E7A1C00A8468C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Charmagne Adonis";
+				TargetAttributes = {
+					477E107F253E7A1C00A8468C = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 477E107B253E7A1C00A8468C /* Build configuration list for PBXProject "MobileExercise3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 477E1077253E7A1C00A8468C;
+			productRefGroup = 477E1081253E7A1C00A8468C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				477E107F253E7A1C00A8468C /* MobileExercise3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		477E107E253E7A1C00A8468C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477E1090253E7A1E00A8468C /* LaunchScreen.storyboard in Resources */,
+				477E108D253E7A1E00A8468C /* Assets.xcassets in Resources */,
+				477E108B253E7A1C00A8468C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		477E107C253E7A1C00A8468C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477E1088253E7A1C00A8468C /* LoginViewController.swift in Sources */,
+				47964706256B640C00863E76 /* TimeLogDetailsViewController.swift in Sources */,
+				473F5C272570927800E1FCAD /* Formatter.swift in Sources */,
+				478E120B25666C0900AF5810 /* TimeLogResponse.swift in Sources */,
+				47F15147255E521E00CF4AFF /* EmployeeDetails.swift in Sources */,
+				473F5C2D2571005D00E1FCAD /* TImeLogsHeaderCell.swift in Sources */,
+				47964708256B79B500863E76 /* TimeLogLeavesViewController.swift in Sources */,
+				4796470425693B2300863E76 /* TimeLogsCell.swift in Sources */,
+				47F15145255E51BD00CF4AFF /* LoginResponse.swift in Sources */,
+				4731A08C25410D4D0041A3F4 /* SuccessPageViewController.swift in Sources */,
+				478E12072566535500AF5810 /* TimeLogsViewController.swift in Sources */,
+				478E120925666B9C00AF5810 /* TimeLogDetails.swift in Sources */,
+				47537F37256CECE0001C0320 /* AddTimeLogSuccessViewController.swift in Sources */,
+				47537F39256D121D001C0320 /* AddTimeLogResponse.swift in Sources */,
+				479D80512562581B00F580BA /* SpinnerViewController.swift in Sources */,
+				477E1084253E7A1C00A8468C /* AppDelegate.swift in Sources */,
+				4731A08625401F3C0041A3F4 /* ProfilePageViewController.swift in Sources */,
+				47537F35256CECCD001C0320 /* AddTimeLogViewController.swift in Sources */,
+				4731A08825404AA00041A3F4 /* UpdateProfileViewController.swift in Sources */,
+				478AF6D3255E296200820052 /* UpdateProfile.swift in Sources */,
+				477E1086253E7A1C00A8468C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		477E1089253E7A1C00A8468C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				477E108A253E7A1C00A8468C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		477E108E253E7A1E00A8468C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				477E108F253E7A1E00A8468C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		477E1092253E7A1E00A8468C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MobileExercise3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		477E1093253E7A1E00A8468C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MobileExercise3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		477E1095253E7A1E00A8468C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J43F92K3ZP;
+				INFOPLIST_FILE = MobileExercise3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exercise.MobileExercise3;
+				PRODUCT_NAME = MobileExercise3;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		477E1096253E7A1E00A8468C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J43F92K3ZP;
+				INFOPLIST_FILE = MobileExercise3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.exercise.MobileExercise3;
+				PRODUCT_NAME = MobileExercise3;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		477E107B253E7A1C00A8468C /* Build configuration list for PBXProject "MobileExercise3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477E1092253E7A1E00A8468C /* Debug */,
+				477E1093253E7A1E00A8468C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		477E1094253E7A1E00A8468C /* Build configuration list for PBXNativeTarget "MobileExercise3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				477E1095253E7A1E00A8468C /* Debug */,
+				477E1096253E7A1E00A8468C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 477E1078253E7A1C00A8468C /* Project object */;
+}

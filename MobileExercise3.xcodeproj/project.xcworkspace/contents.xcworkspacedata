@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MobileExercise1.xcodeproj">
+      location = "self:/Users/charmagne/Documents/XCode/MobileExercise3/MobileExercise3.xcodeproj">
    </FileRef>
 </Workspace>
